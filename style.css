@@ -91,13 +91,16 @@ a {
 .heroForm input {
     background-color: #DEE9FF;
     color: #7A7A7A;
-    padding: 15px 90px; 
+    width: 388px; 
+    height: 48px;
     border: none;
     border-radius: 50px;
     margin-bottom: 119px;
     font-size: 16px;
     font-family: roboto;
     font-weight: 400;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 .heroForm button {
     background-color: #1BC768;
@@ -110,6 +113,8 @@ a {
     padding: 15px 38px;
     position: absolute;
     cursor: pointer;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 .hero img {
     padding-left: 131px;
@@ -153,7 +158,7 @@ a {
 }
 .exclude {
     display: flex;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 .medicine h6{
     font-size: 24px;
@@ -168,7 +173,8 @@ a {
     padding-top: 151px;
 }
 .medicine button {
-    padding: 15px;
+    width: 238px;
+    height: 47px;
     border: 1px solid rgba(27, 199, 104, 1);
     color: rgba(27, 199, 104, 1);
     border-radius: 50px;
@@ -178,4 +184,99 @@ a {
 }
 .prescribed {
     padding-left: 139px;
+}
+.bicycle {
+    display: flex;
+}
+.pig {
+    padding-left: 240px;
+}
+.medicine2 h6{
+    font-size: 24px;
+    font-weight: 800;
+    font-family: roboto;
+    color: rgba(4, 60, 170, 1);
+    width: 242px;
+    padding-bottom: 40px;
+}
+.medicine2 {
+    padding-left: 159px;
+    padding-top: 151px;
+}
+.medicine2 button {
+    width: 238px;
+    height: 47px;
+    border: 1px solid rgba(27, 199, 104, 1);
+    color: rgba(27, 199, 104, 1);
+    border-radius: 50px;
+}
+.medicine3 h6{
+    font-size: 24px;
+    font-weight: 800;
+    font-family: roboto;
+    color: rgba(4, 60, 170, 1);
+    width: 242px;
+    padding-bottom: 40px;
+    padding-top: 211px;
+}
+.medicine3 {
+    padding-left: 211px;
+}
+.medicine3 button {
+    width: 238px;
+    height: 47px;
+    border: 1px solid rgba(27, 199, 104, 1);
+    color: rgba(27, 199, 104, 1);
+    border-radius: 50px;
+}
+.people {
+    padding-left: 118px;
+    padding-top: 70px;
+}
+.tangle {
+    display: flex;
+}
+.most{
+    padding-bottom: 138px;
+}
+.family {
+    padding-left: 187px;
+}
+.client {
+    font-size: 36px;
+    /* font-family: roboto; */
+    font-weight: 800;
+}
+.sunny img {
+    padding-left: 70px;
+    padding-bottom: 48px;
+    padding-top: 5px;
+}
+.family p{
+    font-size: 18px;
+    padding-bottom: 18px;
+    color: rgba(122, 122, 122, 1);
+}
+.general {
+    color: rgba(4, 60, 170, 1);
+    font-size: 18px;
+    padding-bottom: 41px;
+}
+.update{
+    background-color: rgba(4, 60, 170, 1);
+}
+.news h6{
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    padding-bottom: 18px;
+}
+.news p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    width: 404px;
+}
+.news {
+    padding-left: 173px;
+    padding-top: 90px;
 }
