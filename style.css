@@ -11,7 +11,7 @@ header {
     margin: auto;
     font-family: roboto;
     padding-left: 105px;
-    padding-right: 104px;
+    width: 1440;
     padding-bottom: 106px;
 }
 .image { 
@@ -42,7 +42,8 @@ a {
 .headBtn {
     background-color: #1BC768;
     color: white;
-    padding: 10px 38px 10px 38px;
+    width: 117px;
+    height: 42px;
     border: none;
     border-radius: 50px;
     margin-top: 21px;
@@ -72,13 +73,14 @@ a {
     line-height: 24px;
 }
 .place {
-    padding: 10px 38px 10px 38px;
+    width: 108px;
+    height: 45px;
     border: 1px solid #ffffff;
     border-radius: 50px;
     color: white;
     background-color: rgba(4, 60, 170, 1);
     cursor: pointer;
-    margin-right: 21px;
+    margin-right: 18px;
     margin-bottom: 52px;
     font-size: 16px;
     
@@ -109,16 +111,19 @@ a {
     font-weight: 400;
     border: none;
     border-radius: 50px;
-    padding: 15px 38px;
+    width: 127px;
+    height: 48px;
     position: absolute;
     cursor: pointer;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
 .hero img {
-    padding-left: 131px;
+    padding-left: 250px;
     padding-bottom: 0px;
-}
+    width: 600px;
+    height: 503px;
+} 
 .author {
     background-color: rgba(243, 247, 255, 1);
 }
@@ -159,6 +164,15 @@ a {
     display: flex;
     padding-bottom: 30px;
 }
+.exclude img {
+    width: 15.8px;
+    height: 15px;
+    padding-right: 7px;
+}
+.exclude p{
+    font-size: 18px;
+    font-family: roboto;
+}
 .medicine h6{
     font-size: 24px;
     font-weight: 800;
@@ -189,6 +203,7 @@ a {
 }
 .pig {
     padding-left: 240px;
+    padding-top: 70px;
 }
 .medicine2 h6{
     font-size: 24px;
@@ -240,10 +255,12 @@ a {
 .most img{
     padding-bottom: 138px;
     padding-top: 94px;
+    width: 500px;
+    height: 646px;
 }
 .family {
     padding-left: 187px;
-    padding-right: 150px;
+    padding-right: 300px;
 }
 .client {
     font-size: 50px;
@@ -266,7 +283,7 @@ a {
     color: rgba(4, 60, 170, 1);
     font-size: 18px;
     padding-bottom: 41px;
-    font-weight: 4000;
+    font-weight: 400;
     font-family: roboto;
 }
 .update{
@@ -327,7 +344,7 @@ a {
     border: none;
     border-radius: 50px;
     width: 156px;
-    height: 50px;
+    height: 48px;
     position: absolute;
     cursor: pointer;
     border-top-left-radius: 0;
@@ -397,396 +414,187 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
-    /*.container{
-        background-image: url(/Images/Rectangle.png);
+    .container{
+        width: 1024px;
     }
     header {
-        display: flex;
-        margin: auto;
-        font-family: roboto;
-        padding-left: 105px;
-        padding-right: 104px;
-        padding-bottom: 106px;
+        padding-left: 90px;
     }
-    .image { 
-        cursor: pointer;
-        padding-top: 37px;
-    }
-    nav {
-        display: flex;
-        justify-content: space-between;
-        text-align: center;
+    .image {
+        width: 50px;
     }
     ul {
-        display: flex;
-        justify-content: space-between;
-        text-align: center;
+        padding-left: 100px;
         gap: 48px;
-        padding-top: 37px;
-        list-style: none;
-        padding-left: 264px;
-    }
-    li {
-        color: white;
-        font-size: 16px;
-    }
-    a {
-        text-decoration: none;
     }
     .headBtn {
-        background-color: #1BC768;
-        color: white;
-        padding: 10px 38px 10px 38px;
-        border: none;
-        border-radius: 50px;
-        margin-top: 21px;
-        margin-left: 170px;
-        font-size: 16px;
+        margin-left: 100px;
+        width: 117px;
     }
     .hero {
-        font-family: roboto;
-        padding-left: 104px;
-        padding-right: 104px;
-        display: flex;
+        padding-left: 90px;
     }
     .hero h2 {
-        font-size: 48px;
-        color: white;
-        padding-bottom: 23px;
-        font-weight: 900;
-        width: 519px;
-        line-height: 62px;
+        font-size: 40px;
+        width: 419px;
     }
     .hero p {
-        font-size: 18px;
-        font-weight: 400;
-        color: white;
-        padding-bottom: 44px;
-        width: 504px;
-        line-height: 24px;
+        font-size: 16px;
+        width: 419px;
     }
     .place {
-        padding: 10px 38px 10px 38px;
-        border: 1px solid #ffffff;
-        border-radius: 50px;
-        color: white;
-        background-color: rgba(4, 60, 170, 1);
-        cursor: pointer;
-        margin-right: 21px;
-        margin-bottom: 52px;
-        font-size: 16px;
-        
-    }
-    .place:hover{
-        color: blue;
-        background-color: white;
+        width: 90px;
+        margin-right: 10px;
     }
     .heroForm input {
-        background-color: #DEE9FF;
-        color: #7A7A7A;
-        width: 388px; 
-        height: 48px;
-        border: none;
-        border-radius: 50px;
-        margin-bottom: 119px;
-        font-size: 16px;
-        font-family: roboto;
-        font-weight: 400;
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
+        width: 300px;
     }
     .heroForm button {
-        background-color: #1BC768;
-        color: white;
-        font-size: 16px;
-        font-family: roboto;
-        font-weight: 400;
-        border: none;
-        border-radius: 50px;
-        padding: 15px 38px;
-        position: absolute;
-        cursor: pointer;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
+        width: 117px;
     }
     .hero img {
-        padding-left: 131px;
-        padding-bottom: 0px;
-    }*/
-    .author {
-        background-color: rgba(243, 247, 255, 1);
-    }
-    .lation h3 {
-        color: rgba(4, 60, 170, 1);
-        font-size: 36px;
-        font-family: roboto;
-        font-weight: 900;
-    }
-    .lation{
-        text-align: center;
-        align-items: center;
-        padding-bottom: 56px;
-        padding-top: 94px;
-    }
-    .page {
-        text-align: center;
-        padding-bottom: 113px;
-    }
-    .logo {
-        margin-right: 117px;
-    }
-    .okay {
-        margin-right: 117px;
-    }
-    .benefit h3{
-        color: rgba(4, 60, 170, 1);
-        font-size: 36px;
-        font-family: roboto;
-        font-weight: 900;
-    }
-    .benefit {
-        text-align: center;
-        align-items: center;
-        padding-bottom: 10px;
-    }
-    .exclude {
-        display: flex;
-        padding-bottom: 30px;
-    }
-    .medicine h6{
-        font-size: 24px;
-        font-weight: 800;
-        font-family: roboto;
-        color: rgba(4, 60, 170, 1);
-        width: 242px;
-        padding-bottom: 40px;
+        padding-left: 29px;
     }
     .medicine {
-        padding-left: 31px;
-        padding-top: 151px;
+        padding-left: 150px;
     }
-    .medicine button {
-        width: 238px;
-        height: 47px;
-        border: 1px solid rgba(27, 199, 104, 1);
-        color: rgba(27, 199, 104, 1);
-        border-radius: 50px;
+    .prescribed{
+        padding-left: 2px;
+        width: 311px;
     }
-    .group {
-        display: flex;
-    }
-    .prescribed {
-        padding-left: 31px;
-    }
-    .bicycle {
-        display: flex;
-    }
-    .pig {
-        padding-left: 31px;
-    }
-    .medicine2 h6{
-        font-size: 24px;
-        font-weight: 800;
-        font-family: roboto;
-        color: rgba(4, 60, 170, 1);
-        width: 242px;
-        padding-bottom: 40px;
+    .pig{
+        padding-left: 150px;
     }
     .medicine2 {
-        padding-left: 31px;
-        padding-top: 151px;
-    }
-    .medicine2 button {
-        width: 238px;
-        height: 47px;
-        border: 1px solid rgba(27, 199, 104, 1);
-        color: rgba(27, 199, 104, 1);
-        border-radius: 50px;
-    }
-    .medicine3 h6{
-        font-size: 24px;
-        font-weight: 800;
-        font-family: roboto;
-        color: rgba(4, 60, 170, 1);
-        width: 242px;
-        padding-bottom: 40px;
-        padding-top: 211px;
-    }
-    .medicine3 {
-        padding-left: 31px;
-    }
-    .medicine3 button {
-        width: 238px;
-        height: 47px;
-        border: 1px solid rgba(27, 199, 104, 1);
-        color: rgba(27, 199, 104, 1);
-        border-radius: 50px;
-        font-size: 18px;
-        font-weight: 500;
-    }
-    .people {
-        padding-left: 31px;
-        padding-top: 70px;
-    }
-    .tangle {
-        display: flex;
-    }
-    .most img{
-        padding-bottom: 138px;
-        padding-top: 94px;
-        width: 80%;
-    }
-    .family {
-        padding-left: 99px;
-        padding-right: px;
-        width: 382px;
-    }
-    .client {
-        font-size: 50px;
-        font-family: roboto;
-        font-weight: 800;
-        padding-top: 174px;
-    }
-    .sunny img {
-        padding-left: 100px;
-        padding-bottom: 48px;
-        padding-top: 5px;
-    }
-    .family p{
-        font-size: 18px;
-        padding-bottom: 18px;
-        color: rgba(122, 122, 122, 1);
-        font-family: roboto;
-    }
-    .general {
-        color: rgba(4, 60, 170, 1);
-        font-size: 18px;
-        padding-bottom: 41px;
-        font-weight: 4000;
-        font-family: roboto;
-    }*/
-    .update{
-        background-color: rgba(4, 60, 170, 1);
-    }
-    .news h6{
-        font-size: 20px;
-        color: rgba(255, 255, 255, 1);
-        font-weight: 900;
-        padding-bottom: 18px;
-        font-family: roboto;
-    }
-    .news p {
-        color: rgba(255, 255, 255, 1);
-        font-size: 16px;
-        width: 404px;
-    }
-    .news {
-        padding-left: 31px;
-        padding-top: 90px;
-    }
-    .sign {
-        display: flex;
-    }
-    .holder {
-        padding-top: 96px;
-        padding-left: 14px;
-    }
-    .holder p{
-        font-size: 18px;
-        font-family: roboto;
-        font-weight: 400;
-        color: rgba(255, 255, 255, 1);
-        padding-bottom: 13px;
-    }
-    .holder input {
-        background-color: #DEE9FF;
-        color: #7A7A7A;
-         width: 200px;  
-        height: 48px;
-        border: none;
-        border-radius: 50px;
-        font-size: 16px;
-        font-family: roboto;
-        font-weight: 400;
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
-        padding-left: 30px;
-    }
-    .holder button {
-        background-color: #1BC768;
-        color: white;
-        font-size: 16px;
-        font-family: roboto;
-        font-weight: 400;
-        border: none;
-        border-radius: 50px;
-        width: 100px;
-        height: 50px;
-        position: absolute;
-        cursor: pointer;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
-    }
-    .online {
-        color: rgba(255, 255, 255, 1);
-        font-family: roboto;
-        display: flex;
-    }
-    .health {
-        padding-left: 31px;
-        padding-top: 106px;
-    }
-    .health h6 {
-        font-size: 24px;
-        padding-bottom: 11px;
-    }
-    .health p{
-        font-size: 18px;
-        width: 211px;
-        line-height: 24px;
-    }
-    .quick h6{
-        font-size: 18px;
-        padding-bottom: 21px;
-    }
-    .quick p{
-        font-size: 16px;
-        padding-bottom: 15px;
-    }
-    .quick {
-        padding-top: 110px;
-        padding-left: 40px;
-    }
-    .hold h6 {
-        font-size: 18px;
-        padding-bottom: 21px;
-    }
-    .hold p {
-        font-size: 16px;
-        padding-bottom: 15px;
-    }
-    .hold {
-        padding-top: 110px;
-        padding-left: 40px;
-    }
-    .book h6 {
-        font-size: 18px;
-        padding-bottom: 21px;
-    }
-    .book p {
-        font-size: 16px;
-        padding-bottom: 15px;
-    }
-    .book {
-        padding-top: 110px;
         padding-left: 50px;
     }
-    .copyright {
+    .medicine3 {
+        padding-left: 150px;
+    }
+    .people {
+        padding-left: 2px;
+    }
+    .family {
+        padding-left: 100px;
+        padding-right: 60px;
+    }
+    .news {
+        padding-left: 80px;
+    }
+    .holder {
+        padding-left: 70px;
+        padding-right: 1px;
+    }
+    .holder input {
+        width: 250px;
+    }
+    .holder button {
+        width: 130px;
+    }
+    .health {
+        padding-left: 80px;
+    }
+    .quick {
+        padding-left: 100px;
+    }
+    .hold {
+        padding-left: 71px;
+    }
+    .book {
+        padding-left: 91px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container{
+        width: 1024px;
+    }
+    header {
+        padding-left: 90px;
+    }
+    .image {
+        width: 50px;
+    }
+    ul {
+        padding-left: 100px;
+        gap: 48px;
+    }
+    .headBtn {
+        margin-left: 100px;
+        width: 117px;
+    }
+    .hero {
+        padding-left: 90px;
+    }
+    .hero h2 {
+        font-size: 40px;
+        width: 419px;
+    }
+    .hero p {
         font-size: 16px;
-        color: rgba(255, 255, 255, 1);
-        justify-content: center;
-        padding-top: 50px;
-        font-family: roboto;
-        padding-bottom: 17px;
+        width: 419px;
+    }
+    .place {
+        width: 90px;
+        margin-right: 10px;
+    }
+    .heroForm input {
+        width: 300px;
+    }
+    .heroForm button {
+        width: 117px;
+    }
+    .hero img {
+        padding-left: 29px;
+    }
+    .author{
+        
+    }
+    .medicine {
+        padding-left: 150px;
+    }
+    .prescribed{
+        padding-left: 2px;
+        width: 311px;
+    }
+    .pig{
+        padding-left: 150px;
+    }
+    .medicine2 {
+        padding-left: 50px;
+    }
+    .medicine3 {
+        padding-left: 150px;
+    }
+    .people {
+        padding-left: 2px;
+    }
+    .family {
+        padding-left: 100px;
+        padding-right: 60px;
+    }
+    .news {
+        padding-left: 80px;
+    }
+    .holder {
+        padding-left: 70px;
+        padding-right: 1px;
+    }
+    .holder input {
+        width: 250px;
+    }
+    .holder button {
+        width: 130px;
+    }
+    .health {
+        padding-left: 80px;
+    }
+    .quick {
+        padding-left: 100px;
+    }
+    .hold {
+        padding-left: 71px;
+    }
+    .book {
+        padding-left: 91px;
     }
 }
