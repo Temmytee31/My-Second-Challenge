@@ -547,7 +547,7 @@ a {
         padding-left: 29px;
     }
     .author{
-        
+        width: 1025px;
     }
     .medicine {
         padding-left: 150px;
@@ -571,6 +571,9 @@ a {
     .family {
         padding-left: 100px;
         padding-right: 60px;
+    }
+    .update{
+        width: 1025px;
     }
     .news {
         padding-left: 80px;
