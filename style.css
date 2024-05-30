@@ -3,26 +3,43 @@
     margin: 0%;
     box-sizing: border-box;
 }
-.container{
-    background-image: url(/Images/Rectangle.png);
+
+.container {
+    margin: 0 auto;
 }
+
+.hero-section{
+    background-image: url(/Images/Rectangle.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-con {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 header {
     display: flex;
-    margin: auto;
+    margin: 0 auto;
     font-family: roboto;
-    padding-left: 105px;
-    width: 1440;
-    padding-bottom: 106px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 106px;
 }
+
 .image { 
     cursor: pointer;
     padding-top: 37px;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    width: 60%;
 }
+
 ul {
     display: flex;
     justify-content: space-between;
@@ -30,8 +47,8 @@ ul {
     gap: 48px;
     padding-top: 37px;
     list-style: none;
-    padding-left: 264px;
 }
+
 li {
     color: white;
     font-size: 16px;
@@ -39,6 +56,7 @@ li {
 a {
     text-decoration: none;
 }
+
 .headBtn {
     background-color: #1BC768;
     color: white;
@@ -47,15 +65,17 @@ a {
     border: none;
     border-radius: 50px;
     margin-top: 21px;
-    margin-left: 170px;
     font-size: 16px;
 }
+
 .hero {
     font-family: roboto;
-    padding-left: 104px;
-    padding-right: 104px;
+    margin: 0 auto;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
 }
+
 .hero h2 {
     font-size: 48px;
     color: white;
@@ -83,7 +103,6 @@ a {
     margin-right: 18px;
     margin-bottom: 52px;
     font-size: 16px;
-    
 }
 .place:hover{
     color: blue;
@@ -102,6 +121,7 @@ a {
     font-weight: 400;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    padding-left: 24px;
 }
 .heroForm button {
     background-color: #1BC768;
@@ -118,15 +138,19 @@ a {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
-.hero img {
-    padding-left: 250px;
-    padding-bottom: 0px;
+
+.hero-img {
+    display: flex;
+    justify-content: flex-end;
     width: 600px;
     height: 503px;
 } 
-.author {
+
+.author-sec {
     background-color: rgba(243, 247, 255, 1);
+    margin: 0 auto;
 }
+
 .lation h3 {
     color: rgba(4, 60, 170, 1);
     font-size: 36px;
@@ -155,11 +179,14 @@ a {
     font-family: roboto;
     font-weight: 900;
 }
+
 .benefit {
     text-align: center;
     align-items: center;
     padding-bottom: 10px;
+    margin: 0 auto;
 }
+
 .exclude {
     display: flex;
     padding-bottom: 30px;
@@ -181,10 +208,12 @@ a {
     width: 242px;
     padding-bottom: 40px;
 }
+
 .medicine {
-    padding-left: 211px;
+    margin: 0 auto;
     padding-top: 151px;
 }
+
 .medicine button {
     width: 238px;
     height: 47px;
@@ -192,19 +221,29 @@ a {
     color: rgba(27, 199, 104, 1);
     border-radius: 50px;
 }
+
 .group {
     display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    justify-content: space-between;
 }
+
 .prescribed {
-    padding-left: 139px;
+    margin: 0 auto;
 }
+
 .bicycle {
     display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    justify-content: space-between;
 }
+
 .pig {
-    padding-left: 240px;
     padding-top: 70px;
 }
+
 .medicine2 h6{
     font-size: 24px;
     font-weight: 800;
@@ -249,9 +288,13 @@ a {
     padding-left: 118px;
     padding-top: 70px;
 }
+
 .tangle {
     display: flex;
+    margin: 0 auto;
+    width: fit-content;
 }
+
 .most img{
     padding-bottom: 138px;
     padding-top: 94px;
@@ -286,10 +329,17 @@ a {
     font-weight: 400;
     font-family: roboto;
 }
-.update{
+
+.footer{
     background-color: rgba(4, 60, 170, 1);
-    
 }
+
+.footer-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
+
 .news h6{
     font-size: 24px;
     color: rgba(255, 255, 255, 1);
@@ -302,18 +352,23 @@ a {
     font-size: 18px;
     width: 404px;
 }
+
 .news {
-    padding-left: 173px;
     padding-top: 90px;
 }
+
 .sign {
     display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    gap: 4rem;
 }
+
 .holder {
     padding-top: 96px;
-    padding-left: 143px;
     padding-right: 231px;
 }
+
 .holder p{
     font-size: 18px;
     font-family: roboto;
@@ -350,13 +405,21 @@ a {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+
 .online {
     color: rgba(255, 255, 255, 1);
     font-family: roboto;
     display: flex;
+    justify-content: space-between;
 }
+
+.online-cons {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
 .health {
-    padding-left: 173px;
     padding-top: 106px;
 }
 .health h6 {
@@ -376,10 +439,11 @@ a {
     font-size: 16px;
     padding-bottom: 15px;
 }
+
 .quick {
     padding-top: 110px;
-    padding-left: 209px;
 }
+
 .hold h6 {
     font-size: 18px;
     padding-bottom: 21px;
@@ -388,10 +452,11 @@ a {
     font-size: 16px;
     padding-bottom: 15px;
 }
+
 .hold {
     padding-top: 110px;
-    padding-left: 91px;
 }
+
 .book h6 {
     font-size: 18px;
     padding-bottom: 21px;
@@ -400,10 +465,11 @@ a {
     font-size: 16px;
     padding-bottom: 15px;
 }
+
 .book {
     padding-top: 110px;
-    padding-left: 131px;
 }
+
 .copyright {
     font-size: 16px;
     color: rgba(255, 255, 255, 1);
@@ -414,26 +480,26 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
-    .container{
-        width: 1024px;
+    .hero-con {
+        max-width: 980px;
     }
-    header {
-        padding-left: 90px;
-    }
+
     .image {
         width: 50px;
     }
-    ul {
-        padding-left: 100px;
-        gap: 48px;
+
+    nav {
+        width: 70%;
     }
+
+    ul {
+        gap: 36px;
+    }
+
     .headBtn {
-        margin-left: 100px;
         width: 117px;
     }
-    .hero {
-        padding-left: 90px;
-    }
+    
     .hero h2 {
         font-size: 40px;
         width: 419px;
@@ -452,25 +518,31 @@ a {
     .heroForm button {
         width: 117px;
     }
+
+    .hero-img {
+        width: 100%;
+    }
+
     .hero img {
         padding-left: 29px;
     }
-    .medicine {
-        padding-left: 150px;
+    
+    .bicycle {
+        width: 90%;
     }
-    .prescribed{
-        padding-left: 2px;
-        width: 311px;
+    
+    .group {
+        width: 90%;
     }
-    .pig{
-        padding-left: 150px;
-    }
+
     .medicine2 {
-        padding-left: 50px;
+        padding-left: 0px;
     }
+
     .medicine3 {
-        padding-left: 150px;
+        padding-left: 0px;
     }
+
     .people {
         padding-left: 2px;
     }
@@ -478,53 +550,48 @@ a {
         padding-left: 100px;
         padding-right: 60px;
     }
-    .news {
-        padding-left: 80px;
+    
+    .footer-container {
+       max-width: 980px;
     }
+
     .holder {
-        padding-left: 70px;
         padding-right: 1px;
     }
+
     .holder input {
         width: 250px;
     }
     .holder button {
         width: 130px;
     }
-    .health {
-        padding-left: 80px;
-    }
-    .quick {
-        padding-left: 100px;
-    }
-    .hold {
-        padding-left: 71px;
-    }
-    .book {
-        padding-left: 91px;
-    }
 }
 @media screen and (max-width: 768px) {
-    .container{
-        width: 1024px;
+    .hero-con {
+        max-width: 690px;
     }
-    header {
-        padding-left: 90px;
-    }
+
     .image {
         width: 50px;
     }
-    ul {
-        padding-left: 100px;
-        gap: 48px;
+
+    nav {
+        width: 80%;
     }
+
+    ul {
+        gap: 12px;
+    }
+
     .headBtn {
-        margin-left: 100px;
         width: 117px;
     }
+
     .hero {
-        padding-left: 90px;
+        flex-direction: column;
+        align-items: center;
     }
+
     .hero h2 {
         font-size: 40px;
         width: 419px;
@@ -532,6 +599,11 @@ a {
     .hero p {
         font-size: 16px;
         width: 419px;
+    }
+
+    .hero-img {
+        justify-content: center;
+        align-items: center;
     }
     .place {
         width: 90px;
@@ -549,55 +621,220 @@ a {
     .author{
         width: 1025px;
     }
-    .medicine {
-        padding-left: 150px;
+
+    .group {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    .prescribed{
-        padding-left: 2px;
-        width: 311px;
+
+    .bicycle {
+        flex-direction: column;
+        align-items: center;
     }
-    .pig{
-        padding-left: 150px;
+
+    .prescribed {
+        margin-top: 70px;
     }
-    .medicine2 {
-        padding-left: 50px;
-    }
-    .medicine3 {
-        padding-left: 150px;
-    }
+    
     .people {
         padding-left: 2px;
     }
+
+    .tangle {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .family {
-        padding-left: 100px;
-        padding-right: 60px;
+        padding: 0px;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 690px;
     }
-    .update{
-        width: 1025px;
+
+    .sign {
+        flex-direction: column;
+        align-items: start;
+        gap: 0;
+        width: 100%;
+        max-width: 690px;
+        margin: 0 auto;
     }
-    .news {
-        padding-left: 80px;
-    }
+
     .holder {
-        padding-left: 70px;
         padding-right: 1px;
     }
+
     .holder input {
         width: 250px;
     }
     .holder button {
         width: 130px;
     }
-    .health {
-        padding-left: 80px;
+
+
+    .online {
+        width: 100%;
+        max-width: 690px;
+        margin: 0 auto;
     }
-    .quick {
-        padding-left: 100px;
+
+    .online-cons{
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
     }
-    .hold {
-        padding-left: 71px;
+}
+
+@media screen and (max-width: 320px) {
+    .hero-con {
+        max-width: 290px;
     }
-    .book {
-        padding-left: 91px;
+
+    header {
+        display: none;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+        width: 100%;
+        line-height: 24px;
+    }
+
+    .hero p {
+        font-size: 10px;
+        width: 100%;
+        line-height: 16px;
+    }
+
+    .heroForm input {
+        width: 220px;
+        font-size: 14px;
+    }
+
+    .heroForm button {
+        width: 80px;
+        font-size: 14px;
+    }
+
+
+    .hero img {
+        padding: 0;
+        width: 100%;
+    }
+
+    .lation {
+        padding-top: 65px;
+        padding-bottom: 30px;
+    }
+
+    .lation h3 {
+        font-size: 24px;
+    }
+
+    .page {
+        padding-bottom: 50px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .okay {
+        margin: 0;
+    }
+
+    .benefit h3 {
+        font-size: 24px;
+    }
+
+    .medicine {
+        padding-top: 80px;
+    }
+
+    .prescribed {
+        margin-top: 35px;
+        width: 290px;
+    }
+
+    .prescribed img {
+        width: 100%;
+    }
+
+    .pig {
+        padding-top: 35px;
+        width: 275px;
+    }
+
+    .pig img {
+        width: 100%;
+    }
+
+    .medicine2 {
+        padding-top: 90px;
+    }
+
+    .medicine3 h6 {
+        padding-top: 90px;
+    }
+
+    .people {
+        padding-top: 35px;
+        width: 290px;
+    }
+
+    .people img {
+        width: 100%;
+    }
+
+    .most {
+        width: 100%;
+    }
+
+    .most img {
+        padding: 75px 0;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .family {
+        padding-bottom: 20px;
+        max-width: 290px;
+    }
+
+    .client {
+        padding-top: 45px;
+    }
+
+    .footer-container {
+        max-width: 290px;
+    }
+
+    .news {
+        padding-top: 60px;
+        width: 100%;
+    }
+
+    .news p {
+        width: 100%;
+    }
+
+    .holder {
+        padding-top: 50px;
+    }
+
+    .holder input {
+        width: 175px;
+    }
+
+    .holder button {
+        width: 75px;
+        font-size: 11px;
+    }
+
+    .online {
+        flex-direction: column;
     }
 }
