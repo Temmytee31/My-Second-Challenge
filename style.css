@@ -64,7 +64,6 @@ a {
     height: 42px;
     border: none;
     border-radius: 50px;
-    margin-top: 21px;
     font-size: 16px;
     cursor: pointer;
 }
@@ -485,10 +484,17 @@ a {
     font-family: roboto;
     padding-bottom: 17px;
 }
+ .openMenu {
+    display: none;
+}
 
 @media screen and (max-width: 1024px) {
     .hero-con {
         max-width: 980px;
+    }
+
+    .openMenu{
+        display: none;
     }
 
     .image {
